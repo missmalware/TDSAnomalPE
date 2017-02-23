@@ -1,7 +1,7 @@
 # TDSAnomalPE
 
 ## Summary
-The script utilizes python's pefile module to parse TimeDateStamp data points in a file header. TDSAnomalPE compares identified data points to the compile time stored in the PE header. If there are discrepancies  between them, it identifies them as possible evidence of compile time manipulation. TDSAnomalPE also compares the checksum in the header to a calculated checksum to see if them match, since mismatched checksums could indicate header manipulation. 
+The script utilizes python's pefile module to parse TimeDateStamp data points in a file header. TDSAnomalPE (TimeDateStamp plus a bad pun) compares identified data points to the compile time stored in the PE header. If there are discrepancies  between them, it identifies them as possible evidence of compile time manipulation. TDSAnomalPE also compares the checksum in the header to a calculated checksum to see if they match, since mismatched checksums could indicate header manipulation. 
 
 For more information on the methodology behind this script, visit [missmalware.com](http://missmalware.com/).
 
